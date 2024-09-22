@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "src/index.js", // Replace with your entry point file
+      "src": "src/App.js", // Replace with your entry point file
       "use": "@vercel/webpack-node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "src/index.js"
+      "dest": "src/App.js"
     }
   ]
 }
