@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Profile Header Custom Styles */
+.profile-header {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 20px;
+}
+
+/* Badge Styles */
+.badge {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Repository Card Styles */
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+}
+
+/* Ensure badge text is always white */
+.badge {
+    color: black !important;
+}
+
